@@ -19,7 +19,6 @@ end
 
 def swap_elements(array)
   array = [0, 1, 2]
-  array.swap do
-  array[2] <=> array[1]
+  array[2] = array[1]
   end
 end
