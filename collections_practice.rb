@@ -11,8 +11,8 @@ def sort_array_desc(array)
   end
 end
 
-def sort_array_char_count([""])
-  [""].join.length.sort do |a, b|
+def sort_array_char_count(array)
+  (array.to_s).join.length.sort do |a, b|
     a <=> b
   end
 end
