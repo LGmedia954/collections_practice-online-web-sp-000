@@ -11,7 +11,7 @@ def sort_array_desc(array)
   end
 end
 
-def sort_array_char_count("")
-  array.length.sort
+def sort_array_char_count(array)
+  array.join.length.sort
   end
 end
