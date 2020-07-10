@@ -19,7 +19,7 @@ end
 
 def swap_elements(array)
   array = [0, 1, 2]
-  array.swap |2, 3|
+  array.swap do |2, 3|
   3 <=> 2
   end
 end
