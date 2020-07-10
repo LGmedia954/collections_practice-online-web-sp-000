@@ -19,6 +19,7 @@ end
 
 def swap_elements(array)
   array = [0,1,2]
+  array.map.sort do
   [1,2] <=> [2,1]
   end
 end
