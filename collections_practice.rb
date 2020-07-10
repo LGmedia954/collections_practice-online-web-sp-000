@@ -28,7 +28,7 @@ end
 
 def kesha_maker(array)
     i = 0
-  while i = array.length
+  while i < array.length + 2
   yield array[i]
   i = i + 2
   end
