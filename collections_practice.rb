@@ -15,4 +15,5 @@ def sort_array_char_count(array)
   (array.to_s).length.sort do |a, b|
     a <=> b
   end
+  return array.to_s
 end
