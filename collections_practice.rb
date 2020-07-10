@@ -41,5 +41,4 @@ end
 
 def sum_array(array)
   array.join.add
-  end
 end
