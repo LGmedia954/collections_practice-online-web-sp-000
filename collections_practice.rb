@@ -28,8 +28,8 @@ end
 
 def kesha_maker(array)
     i = 0
-  while i < array.length + 2
-  yield array[i]
+  while i < array.length
+  yield array[i] << "$"
   i = i + 2
   end
   return array
