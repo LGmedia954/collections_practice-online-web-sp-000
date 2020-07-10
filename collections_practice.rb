@@ -12,6 +12,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array.join.length.sort
+  array.join.length.sort do
+    a <=> b
   end
 end
