@@ -12,6 +12,6 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array = array.sort_by {|x| x.length}
+  array.sort{|x, y| x.length <=> y.length}
   end
 end
