@@ -12,7 +12,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array.to_s.map.length.sort do |a, b|
+  array.map.length.sort do |a, b|
     a <=> b
   end
 end
